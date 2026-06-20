@@ -1,5 +1,6 @@
 // TODO: replace with your actual Focus Journal URL (e.g. https://focus-journal.vercel.app)
 const FOCUS_JOURNAL_URL = "https://focus-journal.vercel.app";
+const LISTING_WRITER_URL = "https://lister.pondering.life";
 const KOFI_URL = "https://ko-fi.com/focusjournal";
 
 const tools = [
@@ -15,8 +16,8 @@ const tools = [
     title: "Listing Writer",
     blurb:
       "Dump a pile of item photos. Get ready-to-paste Poshmark listings, one per item.",
-    href: "/listing-writer",
-    external: false,
+    href: LISTING_WRITER_URL,
+    external: true,
     emoji: "🪄",
   },
 ];
